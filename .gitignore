@@ -1,0 +1,36 @@
+# Dependencies
+/node_modules/
+
+# Next.js build output
+/.next/
+/out/
+/build/
+/dist/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.local.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.log
+
+# Test and coverage output
+/coverage/
+
+# Local database dumps
+*.dump
+*.backup
+*.sql.gz
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Deployment platform
+.vercel/
